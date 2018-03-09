@@ -1,4 +1,6 @@
 # modified from https://github.com/resin-os/resin-raspberrypi/blob/master/layers/meta-resin-raspberrypi/recipes-kernel/linux/linux-raspberrypi_%25.bbappend
+inherit kernel-resin
+
 FILESEXTRAPATHS_prepend := "${THISDIR}/${PN}:"
 
 # Set console accordingly to build type
