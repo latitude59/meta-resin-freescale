@@ -63,3 +63,4 @@ CONF_VERSION = "1"
 
 HOSTTOOLS += "docker iptables"
 
+BALENA_STORAGE = "overlay2"
