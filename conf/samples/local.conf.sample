@@ -63,4 +63,5 @@ CONF_VERSION = "1"
 
 HOSTTOOLS += "docker iptables"
 
-BALENA_STORAGE = "overlay2"
+#BALENA_STORAGE = "overlay2"
+PREFERRED_VERSION_linux-fslc = "4.9%"
