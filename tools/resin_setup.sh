@@ -42,7 +42,7 @@ module.exports =
   initialization: commonImg.initialization
 EOF
 
-VER="2.12.0+rev1"
+VER="2.12.1+rev1"
 
 echo ${VER} > VERSION
 
