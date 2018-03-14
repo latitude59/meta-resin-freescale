@@ -1,0 +1,25 @@
+From 492864a8e36ec1d3f11c7eabe889a6b30686fef4 Mon Sep 17 00:00:00 2001
+From: Andy Best <andy.best@latitude59.co.uk>
+Date: Wed, 14 Mar 2018 20:16:28 +0000
+Subject: [PATCH] Change SoM memory to 512MB
+
+---
+ arch/arm/boot/dts/imx7d-pico.dts | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/arch/arm/boot/dts/imx7d-pico.dts b/arch/arm/boot/dts/imx7d-pico.dts
+index 6be9c19..56833d6 100644
+--- a/arch/arm/boot/dts/imx7d-pico.dts
++++ b/arch/arm/boot/dts/imx7d-pico.dts
+@@ -49,7 +49,7 @@
+ 	compatible = "technexion,imx7d-pico", "fsl,imx7d";
+ 
+ 	memory {
+-		reg = <0x80000000 0x80000000>;
++		reg = <0x80000000 0x20000000>;
+ 	};
+ 
+ 	reg_2p5v: regulator-2p5v {
+-- 
+2.7.4
+
